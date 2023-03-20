@@ -1,20 +1,22 @@
 #include <stdio.h>
 
 /**
- * main - Entry function
- *
- * Return: 0
- */
+   * main - entry point
+    * Return: always 0 (success)
+     */
+
 int main(void)
 {
-char c;
+	int n;
 
-for (c = a; c <= z; c++)
-{
-if (c == q || c == e)
-continue;
-putchar(c);
-}
-putchar(n);
-return (0);
+	for (n = 97; n <= 122; n++)
+	{
+		if (n == 101 || n == 113)
+		{
+			n++;
+		}
+		putchar(n);
+	}
+	putchar('\n');
+	return (0);
 }
