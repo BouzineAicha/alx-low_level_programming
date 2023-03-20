@@ -1,18 +1,16 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
 /**
- * main - Entry function
- *
- * Return: 0
- */
+   * main - entry point
+    * Return: always 0 (success)
+     */
 int main(void)
 {
-char c;
+	int n;
 
-for (c = a; c <= z; c++)
-putchar(c);
-putchar(n);
-return (0);
+	for (n = 97; n <= 122; n++)
+	{
+		putchar(n);
+	}
+	putchar('\n');
+	return (0);
 }
