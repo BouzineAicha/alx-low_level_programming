@@ -1,23 +1,15 @@
 #include <stdio.h>
-
-/**
- *    * main - entry point
- *        * Return: always 0 (success)
- *             */
+#include <stdlib.h>
+#include <time.h>
 
 int main(void)
 {
-		int n;
-			int m;
+	char c;
 
-				for (n = 97; n <= 122; n++)
-						{
-									putchar(n);
-										}
-					for (m = 65; m <= 90; m++)
-							{
-										putchar(m);
-											}
-						putchar('\n');
-							return (0);
+	for (c = 'a'; c <= 'z'; c++)
+		putchar(c);
+	for (c = 'A'; c <= 'Z'; c++)
+		putchar(c);
+	putchar('\n');
+	return (0);
 }
