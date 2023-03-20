@@ -1,19 +1,23 @@
-#include <stdio.h>
+[200~#include <stdio.h>
 
 /**
- * main - Entry function
- *
- * Return: 0
- */
+ *    * main - entry point
+ *        * Return: always 0 (success)
+ *             */
+
 int main(void)
 {
-char c;
+		int n;
+			int m;
 
-for (c = a; c <= z; c++)
-putchar(c);
-for (c = A; c <= Z; c++)
-putchar(c);
-putchar(n);
-return (0);
+				for (n = 97; n <= 122; n++)
+						{
+									putchar(n);
+										}
+					for (m = 65; m <= 90; m++)
+							{
+										putchar(m);
+											}
+						putchar('\n');
+							return (0);
 }
-
