@@ -1,7 +1,8 @@
 #include <stdio.h>
-#include <ctype.h>
+
 int main()
 {
+  int _isupper() { 
     char c;
 
     c = 'C';
@@ -11,4 +12,5 @@ int main()
     printf("\nReturn value when another character %c is passed to is isupper(): %d", c, isupper(c));
 
    return 0;
+}
 }
