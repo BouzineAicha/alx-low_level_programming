@@ -1,16 +1,12 @@
+#include "main.h"
 #include <stdio.h>
-
-int main()
+int main(void)
 {
-  int _isupper() { 
     char c;
 
-    c = 'C';
-    printf("Return value when uppercase character %c is passed to isupper(): %d", c, isupper(c));
-
-    c = '+';
-    printf("\nReturn value when another character %c is passed to is isupper(): %d", c, isupper(c));
-
-   return 0;
-}
+    c = 'A';
+    printf("%c: %d\n", c, _isupper(c));
+    c = 'a';
+    printf("%c: %d\n", c, _isupper(c));
+    return (0);
 }
