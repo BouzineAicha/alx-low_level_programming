@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * Writing a function that prints a string, followed by a new line.
+ * Writing a function named _puts_recursion that prints a string, followed by a new line.
 
-Using  the Prototype: void _puts_recursion(char *s);
-@s is string
+*Using  the Prototype: void _puts_recursion(char *s);
+*@s: string
 
 **/
 
