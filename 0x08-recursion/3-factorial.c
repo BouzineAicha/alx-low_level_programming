@@ -14,13 +14,3 @@ int factorial(int n)
 		return (1);
 	return (n * factorial(n - 1));
 }
-  
-int main(void)
-{
-    int f;
-    f = factorial(6) ;
-    printf("0! =%d\n", f);
-    return (0);
-    
-}
-
